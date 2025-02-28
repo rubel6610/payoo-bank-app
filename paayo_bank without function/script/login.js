@@ -7,6 +7,7 @@ document.getElementById('login-btn').addEventListener('click', function(e){
         if(parseInt(pin) === 1234){
             window.location.href = "./homepage.html"
             console.log('ok');
+            
         }else{
             alert('please input your 4 digit pin')
         }

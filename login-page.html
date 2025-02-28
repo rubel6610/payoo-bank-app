@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo Mobile Bank</title>
+    <link rel="shortcut icon" href="assets/Group.png" type="image/x-icon">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="bg-slate-800">
+    <main class="max-w-md mx-auto bg-slate-50">
+        <section class="py-5">
+            <div class="flex justify-center items-center pt-14 relative">
+                <img class="" src="assets/bg.png" alt="">
+                <img class="absolute top-30" src="assets/Group.png" alt="">
+            </div>
+            <div class="card">
+                <form class="card-body">
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="">Account Number</span>
+                        </label>
+                        <input type="number" placeholder="Account Number" class="input input-bordered"   id="accountNum"/>
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">4 Digit Pin</span>
+                        </label>
+                        <input type="text" placeholder="Pin" class="input input-bordered" id="pin"/>
+                        <label class="label">
+                            <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                        </label>
+                    </div>
+                    <div class="form-control mt-6">
+                        <button id="login-btn" class="btn btn-warning rounded-md">Login</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script/login.js"></script>
+</body>
+
+</html>
